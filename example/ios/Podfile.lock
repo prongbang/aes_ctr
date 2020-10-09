@@ -1,0 +1,29 @@
+PODS:
+  - aes_ctr (1.0.0):
+    - CryptoSwift
+    - Flutter
+  - CryptoSwift (1.3.0)
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - aes_ctr (from `.symlinks/plugins/aes_ctr/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+
+EXTERNAL SOURCES:
+  aes_ctr:
+    :path: ".symlinks/plugins/aes_ctr/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  aes_ctr: 85eeb171613161df8484a883efda8b5d504edeaf
+  CryptoSwift: 1283821600233bdbeb96d7b389c3288c3bf77211
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.0
