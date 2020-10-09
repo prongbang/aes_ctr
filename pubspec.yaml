@@ -1,5 +1,5 @@
 name: aes_ctr
-description: AES CTR - Counter Flutter plugin.
+description: AES block cipher algorithm CTR - Counter Mode, Supports all key sizes (128-bit, 192-bit and 256-bit) for Flutter (Android, iOS)
 version: 1.0.0
 homepage: https://github.com/prongbang/aes_ctr
 
