@@ -1,6 +1,6 @@
 name: aes_ctr
 description: AES block cipher algorithm CTR - Counter Mode, Supports all key sizes (128-bit, 192-bit and 256-bit) for Flutter (Android, iOS)
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/prongbang/aes_ctr
 
 environment:
