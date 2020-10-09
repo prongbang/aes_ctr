@@ -2,14 +2,24 @@
 
 AES CTR - Counter Flutter plugin.
 
-## Getting Started
+## Usage
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+```dart
+import 'dart:async';
+import 'dart:typed_data';
+import 'package:aes_ctr/aes_ctr_cryptography.dart';
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+void main() async {
+    var plaintext = "aes ctr - counter";
+
+    int counter = 5;
+    
+    // 128-bit = (16 bytes * 8 bits/byte), 192-bit and 256-bit secretKey
+    Uint8List secretKey = Uint8List.fromList([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
+    
+    var cipher = await AesCtrCryptography.encrypt(counter, secretKey, plaintext);
+    var decrypt = await AesCtrCryptography.decrypt(counter, secretKey, cipher);
+    print(decrypt);
+}
+```
 
