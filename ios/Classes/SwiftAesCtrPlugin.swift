@@ -32,7 +32,7 @@ public class SwiftAesCtrPlugin: NSObject, FlutterPlugin {
             }
             break
         default:
-            result("counter: \(counter), secretKey: \(secretKey)")
+            result("")
         }
     }
 }

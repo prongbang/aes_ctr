@@ -1,7 +1,6 @@
 name: aes_ctr
 description: AES CTR - Counter Flutter plugin.
 version: 1.0.0
-author: prongbang
 homepage: https://github.com/prongbang/aes_ctr
 
 environment:

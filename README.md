@@ -7,7 +7,7 @@ AES CTR - Counter Flutter plugin.
 ```dart
 import 'dart:async';
 import 'dart:typed_data';
-import 'package:aes_ctr/aes_ctr_cryptography.dart';
+import 'package:aes_ctr/aes_ctr.dart';
 
 void main() async {
     var plaintext = "aes ctr - counter";

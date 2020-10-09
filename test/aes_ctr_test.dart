@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:aes_ctr/aes_ctr_cryptography.dart';
+import 'package:aes_ctr/aes_ctr.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
