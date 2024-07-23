@@ -25,7 +25,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 29
+    if (project.android.hasProperty("namespace")) {
+        namespace 'com.prongbang.aesctr'
+    }
+
+    compileSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
